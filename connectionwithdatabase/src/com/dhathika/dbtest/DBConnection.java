@@ -16,10 +16,12 @@ public class DBConnection {
 		
 		// create connection object 
 		Connection connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "SYSTEM", "dhathika");
-		
-        Statement statement = connection.createStatement();        
-         String str = "insert into depptt values(1050)";
-         statement.execute(str);
+
+        System.out.println(connection);
+		System.out.println("I am just a line to test git");
+//        Statement statement = connection.createStatement();
+//         String str = "insert into depptt values(1050)";
+//         statement.execute(str);
       
      
          connection.commit();
