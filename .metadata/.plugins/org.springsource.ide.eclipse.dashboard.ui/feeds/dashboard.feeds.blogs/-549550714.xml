@@ -5,7 +5,37 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2021-12-21T16:48:33Z</updated>
+  <updated>2021-12-21T21:25:42Z</updated>
+  <entry>
+    <title>Spring Boot 2.6.2 available now</title>
+    <link rel="alternate" href="https://spring.io/blog/2021/12/21/spring-boot-2-6-2-available-now" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Scott Frederick</name>
+    </author>
+    <id>tag:spring.io,2021-12-21:4655</id>
+    <updated>2021-12-21T21:25:42Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I&amp;rsquo;m happy to announce that Spring Boot &lt;code&gt;2.6.2&lt;/code&gt; has been released and is now available from Maven Central.&lt;/p&gt;
+&lt;p&gt;This release includes &lt;a href="https://github.com/spring-projects/spring-boot/releases/tag/v2.6.2"&gt;55 bug fixes, documentation improvements, and dependency upgrades&lt;/a&gt;. Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="https://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="https://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://spring.io/projects/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-boot/docs/2.6.2/reference/html"&gt;Documentation&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Boot 2.5.8 available now</title>
+    <link rel="alternate" href="https://spring.io/blog/2021/12/21/spring-boot-2-5-8-available-now" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Stéphane Nicoll</name>
+    </author>
+    <id>tag:spring.io,2021-12-21:4654</id>
+    <updated>2021-12-21T18:52:32Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I&amp;rsquo;m happy to announce that Spring Boot &lt;code&gt;2.5.8&lt;/code&gt; has been released and is now available from Maven Central.&lt;/p&gt;
+&lt;p&gt;This release includes &lt;a href="https://github.com/spring-projects/spring-boot/releases/tag/v2.5.8"&gt;46 bug fixes, documentation improvements, and dependency upgrades&lt;/a&gt;. Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="https://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="https://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://spring.io/projects/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-boot/docs/2.5.8/reference/html"&gt;Documentation&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Integration 5.5.7 Available</title>
     <link rel="alternate" href="https://spring.io/blog/2021/12/21/spring-integration-5-5-7-available" />
@@ -3443,178 +3473,6 @@ what other usages you&amp;#8217;ve found to be helpful in your experiences.&lt;/
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring - December 7th, 2021</title>
-    <link rel="alternate" href="https://spring.io/blog/2021/12/07/this-week-in-spring-december-7th-2021" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2021-12-07:4634</id>
-    <updated>2021-12-07T19:00:00Z</updated>
-    <content type="html">&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! We&amp;rsquo;ve got a ton of stuff to dive into so let&amp;rsquo;s get goin&amp;rsquo;! &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/12/02/a-bootiful-podcast-datastax-s-christopher-bradford-on-the-apache-cassandra-operator-for-kubernetes-k8ssandra"&gt;A Bootiful Podcast: DataStax&amp;rsquo;s Christopher Bradford on the Apache Cassandra operator for Kubernetes, K8ssandra&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/12/01/accelerate-spring-apps-to-cloud-at-scale-discussion-with-azure-spring-cloud-customers"&gt;Accelerate Spring Apps to Cloud at Scale - Discussion with Azure Spring Cloud Customers&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/12/01/spring-authorization-server-0-2-1-available-now"&gt;Spring Authorization Server 0.2.1 available now&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/12/02/spring-cloud-2021-0-0-codename-jubilee-has-been-released"&gt;Spring Cloud 2021.0.0 (codename Jubilee) Has Been Released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/12/02/spring-cloud-function-3-2-is-out"&gt;Spring Cloud Function 3.2 is out!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/12/07/spring-cloud-sleuth-3-1-0-is-out"&gt;Spring Cloud Sleuth 3.1.0 is out!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/12/01/spring-tips-controllers-and-rsocket"&gt;Spring Tips: @Controllers and RSocket&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://toedter.github.io/spring-hateoas-jsonapi/1.2.0/reference/#affordances"&gt;JSON:API for Spring HATEOAS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://thenewstack.io/living-with-kubernetes-12-commands-to-debug-your-workloads/"&gt;Living with Kubernetes: 12 Commands to Debug Your Workloads&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Hmm. I wonder what &lt;a href="https://twitter.com/mp911de/status/1467775790121205761?s=12"&gt;Mark Paluch&amp;rsquo;s cooking something awesome with the R2DBC SPI&lt;/a&gt;. I wonder what&amp;hellip;?&lt;/li&gt;
-  &lt;li&gt;Nice job, Github Actions! There&amp;rsquo;s now integrated &lt;code&gt;sigstore&lt;/code&gt; support! &lt;a href="https://github.blog/2021-12-06-safeguard-container-signing-capability-actions/"&gt;Safeguard your containers with new container signing capability in GitHub Actions&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Pull Request #762 &lt;a href="https://github.com/cncf/toc/pull/762"&gt;adds Knative for incubation at CNCF&lt;/a&gt; - hurray!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Cloud Sleuth 3.1.0 is out!</title>
-    <link rel="alternate" href="https://spring.io/blog/2021/12/07/spring-cloud-sleuth-3-1-0-is-out" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Marcin Grzejszczak</name>
-    </author>
-    <id>tag:spring.io,2021-12-07:4633</id>
-    <updated>2021-12-07T17:08:00Z</updated>
-    <content type="html">&lt;p&gt;With the release of the Spring Cloud 2021.0.0 (aka Jubilee) release train we&amp;rsquo;re more than happy to announce the general availability of Spring Cloud Sleuth 3.1.0. In this blog post we&amp;rsquo;ll describe the most notable released features.&lt;/p&gt;
-&lt;p&gt;Here is the list of most notable features, we&amp;rsquo;ll elaborate on them in the subsequent parts of this post.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;JDBC &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1930"&gt;#1930&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Tomcat Valve &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1329"&gt;#1329&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Vault &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1952"&gt;#1952&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Automatic tag table generation for documentation &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1950"&gt;#1950&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Cloud Deployer &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1947"&gt;#1947&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;R2DBC &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1524"&gt;#1524&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Kafka &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/2013"&gt;#2013&lt;/a&gt; and Reactor Kafka &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1708"&gt;#1708&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring TX &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1941"&gt;#1941&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Batch &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1904"&gt;#1904&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;RSocket &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1677"&gt;#1677&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Cloud Task &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1903"&gt;#1903&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Cloud Config &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1915"&gt;#1915&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Cloud CircuitBreaker Reactive &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1910"&gt;#1910&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Cassandra &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1974"&gt;#1974&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Session &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1961"&gt;#1961&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Security &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/2011"&gt;#2011&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Prometheus Exemplars &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/2039"&gt;#2039&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Cloud Stream Reactive &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/2038"&gt;#2038&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Reactive Mongo &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/2044"&gt;#2044&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Abstracted Redis instrumentation &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/2046"&gt;#2046&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Custom Actuator for storing traces &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1879"&gt;#1879&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h2&gt;&lt;a href="#jdbc" class="anchor" name="jdbc"&gt;&lt;/a&gt;JDBC&lt;/h2&gt;
-&lt;p&gt;We’re decorating &lt;code&gt;DataSource&lt;/code&gt;s in a trace representation. We delegate actual proxying to either &lt;a href="https://github.com/p6spy/p6spy"&gt;p6spy&lt;/a&gt; or &lt;a href="https://github.com/ttddyy/datasource-proxy"&gt;datasource-proxy&lt;/a&gt;. In order to use this feature you need to have them on the classpath.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/marcingrzejszczak/sleuth-3_1_0-blog/blob/main/images/jdbc.jpeg?raw=true" alt="JDBC example" /&gt;&lt;/p&gt;
-&lt;p&gt;Check the &lt;a href="https://docs.spring.io/spring-cloud-sleuth/docs/current/reference/html/integrations.html#sleuth-jdbc-integration"&gt;docs&lt;/a&gt; for more details.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/data"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration.&lt;/p&gt;&lt;h2&gt;&lt;a href="#tomcat-valve" class="anchor" name="tomcat-valve"&gt;&lt;/a&gt;Tomcat Valve&lt;/h2&gt;
-&lt;p&gt;The main driver behind this change is that up till Sleuth 3.1 your Tomcat logs wouldn&amp;rsquo;t have any tracing information in it. With this change we&amp;rsquo;re instrumenting Tomcat, so we&amp;rsquo;re far earlier in the lifecycle of the request and we can instrument all possible logs with tracing information.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/marcingrzejszczak/sleuth-3_1_0-blog/blob/main/images/mvc.jpeg?raw=true" alt="MVC example" /&gt;&lt;/p&gt;
-&lt;p&gt;Check the &lt;a href="https://docs.spring.io/spring-cloud-sleuth/docs/current/reference/html/integrations.html#sleuth-tomcat-integration"&gt;docs&lt;/a&gt; for more details.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/mvc"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration.&lt;/p&gt;&lt;h2&gt;&lt;a href="#spring-vault" class="anchor" name="spring-vault"&gt;&lt;/a&gt;Spring Vault&lt;/h2&gt;
-&lt;p&gt;We’re instrumenting the &lt;code&gt;RestTemplate&lt;/code&gt; or &lt;code&gt;WebClient&lt;/code&gt; instances used by Spring Vault to communicate with Vault.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/marcingrzejszczak/sleuth-3_1_0-blog/blob/main/images/vault.jpeg?raw=true" alt="Vault example" /&gt;&lt;/p&gt;
-&lt;p&gt;Check the &lt;a href="https://docs.spring.io/spring-cloud-sleuth/docs/current/reference/html/integrations.html#sleuth-vault-integration"&gt;docs&lt;/a&gt; for more details.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/vault-resttemplate"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration for &lt;code&gt;RestTemplate&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/vault-webclient"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration for &lt;code&gt;WebClient&lt;/code&gt;.&lt;/p&gt;&lt;h2&gt;&lt;a href="#automatic-tag-table-generation-for-documentation" class="anchor" name="automatic-tag-table-generation-for-documentation"&gt;&lt;/a&gt;Automatic tag table generation for documentation&lt;/h2&gt;
-&lt;p&gt;There&amp;rsquo;s nothing more frustrating in the tracing world than creating a span and not starting it, or not stopping it. We had enough of such situations&amp;hellip; Another challenge we faced was that we didn&amp;rsquo;t even remember any longer how many spans we create, what their names are and how many tags / events are being set on them.&lt;/p&gt;
-&lt;p&gt;We&amp;rsquo;ve decided to alter the way we code things in Sleuth so that we can introduce certain automation. We are instrumenting the code once, however we are able to turn on at the test time additional assertions that verify if spans were started and stopped etc. Also at the documentation build time we parse the sources and build a table of spans together with some details.&lt;/p&gt;
-&lt;p&gt;You can check the &lt;a href="https://docs.spring.io/spring-cloud-sleuth/docs/current/reference/html/appendix.html#sleuth-spans"&gt;docs&lt;/a&gt; to see the results of that automation.&lt;/p&gt;&lt;h2&gt;&lt;a href="#spring-cloud-deployer" class="anchor" name="spring-cloud-deployer"&gt;&lt;/a&gt;Spring Cloud Deployer&lt;/h2&gt;
-&lt;p&gt;If you have &lt;a href="https://github.com/spring-cloud/spring-cloud-deployer"&gt;Spring Cloud Deployer&lt;/a&gt; running on the classpath, we wrap the &lt;code&gt;AppDeployer&lt;/code&gt; in a trace representation. We are polling the application for its status at a default interval.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/marcingrzejszczak/sleuth-3_1_0-blog/blob/main/images/deployer.jpeg?raw=true" alt="Deployer example" /&gt;&lt;/p&gt;
-&lt;p&gt;Check the &lt;a href="https://docs.spring.io/spring-cloud-sleuth/docs/current/reference/html/integrations.html#sleuth-deployer-integration"&gt;docs&lt;/a&gt; for more details.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/deployer"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration.&lt;/p&gt;&lt;h2&gt;&lt;a href="#r2dbc" class="anchor" name="r2dbc"&gt;&lt;/a&gt;R2DBC&lt;/h2&gt;
-&lt;p&gt;If you have &lt;a href="http://r2dbc.io/r2dbc-proxy/docs/current-snapshot/docs/html/"&gt;R2DBC Proxy&lt;/a&gt; on the classpath we will instrument the &lt;code&gt;ConnectionFactory&lt;/code&gt; so that it contains a custom &lt;code&gt;ProxyExecutionListener&lt;/code&gt;. &lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/marcingrzejszczak/sleuth-3_1_0-blog/blob/main/images/r2dbc.jpeg?raw=true" alt="R2DBC example" /&gt;&lt;/p&gt;
-&lt;p&gt;Check the &lt;a href="https://docs.spring.io/spring-cloud-sleuth/docs/current/reference/html/integrations.html#sleuth-r2dbc-integration"&gt;docs&lt;/a&gt; for more details.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/data-reactive"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration.&lt;/p&gt;&lt;h2&gt;&lt;a href="#kafka-and-reactor-kafka" class="anchor" name="kafka-and-reactor-kafka"&gt;&lt;/a&gt;Kafka and Reactor Kafka&lt;/h2&gt;
-&lt;p&gt;We decorate the Kafka clients (&lt;code&gt;KafkaProducer&lt;/code&gt; and &lt;code&gt;KafkaConsumer&lt;/code&gt;) to create a span for each event that is produced or consumed. We also provide &lt;code&gt;TracingKafkaProducerFactory&lt;/code&gt; and &lt;code&gt;TracingKafkaConsumerFactory&lt;/code&gt; to be used with the Reactor Kafka clients (&lt;code&gt;KafkaSender&lt;/code&gt; and &lt;code&gt;KafkaReceiver&lt;/code&gt;, respectively). Additionally, we decorate any Spring Kafka &lt;code&gt;ProducerFactory&lt;/code&gt; and &lt;code&gt;ConsumerFactory&lt;/code&gt; available in the context.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/marcingrzejszczak/sleuth-3_1_0-blog/blob/main/images/reactive-kafka.jpeg?raw=true" alt="Kafka example" /&gt;&lt;/p&gt;
-&lt;p&gt;Check the &lt;a href="https://docs.spring.io/spring-cloud-sleuth/docs/current/reference/html/integrations.html#sleuth-kafka-integration"&gt;docs&lt;/a&gt; for more details.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/kafka-producer"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration for Kafka producer.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/kafka-consumer"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration for Kafka consumer.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/kafka-reactive-producer"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration for Kafka Reactive producer.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/kafka-reactive-consumer"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration for Kafka Reactive consumer.&lt;/p&gt;&lt;h2&gt;&lt;a href="#spring-tx" class="anchor" name="spring-tx"&gt;&lt;/a&gt;Spring TX&lt;/h2&gt;
-&lt;p&gt;If you have Spring Tx on the classpath we will instrument the &lt;code&gt;PlatformTransactionManager&lt;/code&gt; and the &lt;code&gt;ReactiveTransactionManager&lt;/code&gt; to create a span whenever a new transaction is created.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/marcingrzejszczak/sleuth-3_1_0-blog/blob/main/images/jdbc.jpeg?raw=true" alt="TX example" /&gt;&lt;/p&gt;
-&lt;p&gt;Check the &lt;a href="https://docs.spring.io/spring-cloud-sleuth/docs/current/reference/html/integrations.html#sleuth-tx-integration"&gt;docs&lt;/a&gt; for more details.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/data"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration.&lt;/p&gt;&lt;h2&gt;&lt;a href="#spring-batch" class="anchor" name="spring-batch"&gt;&lt;/a&gt;Spring Batch&lt;/h2&gt;
-&lt;p&gt;If you have Spring Batch running on the classpath, we wrap the &lt;code&gt;StepBuilderFactory&lt;/code&gt; and the &lt;code&gt;JobBuilderFactory&lt;/code&gt; to propagate the tracing context.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/marcingrzejszczak/sleuth-3_1_0-blog/blob/main/images/batch.jpeg?raw=true" alt="Batch example" /&gt;&lt;/p&gt;
-&lt;p&gt;Check the &lt;a href="https://docs.spring.io/spring-cloud-sleuth/docs/current/reference/html/integrations.html#sleuth-batch-integration"&gt;docs&lt;/a&gt; for more details.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/batch"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration.&lt;/p&gt;&lt;h2&gt;&lt;a href="#rsocket" class="anchor" name="rsocket"&gt;&lt;/a&gt;RSocket&lt;/h2&gt;
-&lt;p&gt;If you have Spring RSocket running on the classpath, we wrap the inbound and outbound communication to propagate the tracing context via the metadata&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/marcingrzejszczak/sleuth-3_1_0-blog/blob/main/images/rsocket.jpeg?raw=true" alt="RSocket example" /&gt;&lt;/p&gt;
-&lt;p&gt;Check the &lt;a href="https://docs.spring.io/spring-cloud-sleuth/docs/current/reference/html/integrations.html#sleuth-rsocket-integration"&gt;docs&lt;/a&gt; for more details.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/rsocket-server"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration for RSocket server.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/rsocket-client"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration for RSocket client.&lt;/p&gt;&lt;h2&gt;&lt;a href="#spring-cloud-task" class="anchor" name="spring-cloud-task"&gt;&lt;/a&gt;Spring Cloud Task&lt;/h2&gt;
-&lt;p&gt;If you have Spring Cloud Task running on the classpath, we&amp;rsquo;re instrumenting &lt;code&gt;TaskExecutionListener&lt;/code&gt; and &lt;code&gt;CommandLineRunner&lt;/code&gt; and &lt;code&gt;ApplicationRunner&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/marcingrzejszczak/sleuth-3_1_0-blog/blob/main/images/task.jpeg?raw=true" alt="Task example" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/task"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration.&lt;/p&gt;&lt;h2&gt;&lt;a href="#spring-cloud-config" class="anchor" name="spring-cloud-config"&gt;&lt;/a&gt;Spring Cloud Config&lt;/h2&gt;
-&lt;p&gt;If you have Spring Cloud Config Server running on the classpath, we will wrap the &lt;code&gt;EnvironmentRepository&lt;/code&gt; in a span.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/marcingrzejszczak/sleuth-3_1_0-blog/blob/main/images/config-server.jpeg?raw=true" alt="Config Server example" /&gt;&lt;/p&gt;
-&lt;p&gt;Check the &lt;a href="https://docs.spring.io/spring-cloud-sleuth/docs/current/reference/html/integrations.html#sleuth-config-server-integration"&gt;docs&lt;/a&gt; for more details.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/config-server"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration.&lt;/p&gt;&lt;h2&gt;&lt;a href="#spring-cloud-circuitbreaker-reactive" class="anchor" name="spring-cloud-circuitbreaker-reactive"&gt;&lt;/a&gt;Spring Cloud CircuitBreaker Reactive&lt;/h2&gt;
-&lt;p&gt;If you have Spring Cloud CircuitBreaker on the classpath, we will wrap the passed command &lt;code&gt;Supplier&lt;/code&gt; and the fallback &lt;code&gt;Function&lt;/code&gt; in its trace representations.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/marcingrzejszczak/sleuth-3_1_0-blog/blob/main/images/reactive-circuitbreaker.jpeg?raw=true" alt="CircuitBreaker Reactive example" /&gt;&lt;/p&gt;
-&lt;p&gt;Check the &lt;a href="https://docs.spring.io/spring-cloud-sleuth/docs/current/reference/html/integrations.html#sleuth-circuitbreaker-integration"&gt;docs&lt;/a&gt; for more details.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/circuitbreaker-reactive"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration.&lt;/p&gt;&lt;h2&gt;&lt;a href="#cassandra" class="anchor" name="cassandra"&gt;&lt;/a&gt;Cassandra&lt;/h2&gt;
-&lt;p&gt;If you have Spring Data Cassandra on the classpath, we’re instrumenting Casandra’s &lt;code&gt;CqlSession&lt;/code&gt; and &lt;code&gt;ReactiveSession&lt;/code&gt; interfaces and we’re providing our own implementation of the &lt;code&gt;RequestTracker&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/marcingrzejszczak/sleuth-3_1_0-blog/blob/main/images/cassandra.jpeg?raw=true" alt="Cassandra example" /&gt;&lt;/p&gt;
-&lt;p&gt;Check the &lt;a href="https://docs.spring.io/spring-cloud-sleuth/docs/current/reference/html/integrations.html#sleuth-cassandra-integration"&gt;docs&lt;/a&gt; for more details.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/cassandra"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration for non reactive Cassandra.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/cassandra-reactive"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration for reactive Cassandra.&lt;/p&gt;&lt;h2&gt;&lt;a href="#spring-session" class="anchor" name="spring-session"&gt;&lt;/a&gt;Spring Session&lt;/h2&gt;
-&lt;p&gt;If you have Spring Session on the classpath, we’re instrumenting the &lt;code&gt;Session&lt;/code&gt; repositories that wraps all operations in a span.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/marcingrzejszczak/sleuth-3_1_0-blog/blob/main/images/session.jpeg?raw=true" alt="Session example" /&gt;&lt;/p&gt;
-&lt;p&gt;Check the &lt;a href="https://docs.spring.io/spring-cloud-sleuth/docs/current/reference/html/integrations.html#sleuth-session-integration"&gt;docs&lt;/a&gt; for more details.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/session"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration.&lt;/p&gt;&lt;h2&gt;&lt;a href="#spring-security" class="anchor" name="spring-security"&gt;&lt;/a&gt;Spring Security&lt;/h2&gt;
-&lt;p&gt;If you have Spring Security on the classpath, we create an implementation of &lt;code&gt;SecurityContextChangedListener&lt;/code&gt; that annotates a current span with an event when context has changed.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/marcingrzejszczak/sleuth-3_1_0-blog/blob/main/images/security.jpeg?raw=true" alt="Security example" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/security"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration.&lt;/p&gt;&lt;h2&gt;&lt;a href="#prometheus-exemplars" class="anchor" name="prometheus-exemplars"&gt;&lt;/a&gt;Prometheus Exemplars&lt;/h2&gt;
-&lt;p&gt;Exemplars are metadata attached to metrics (see: &lt;a href="https://github.com/prometheus/client_java#exemplars"&gt;Prometheus Exemplars&lt;/a&gt;), e.g.: traceId so that you can get an example traceId for your metrics.&lt;/p&gt;
-&lt;p&gt;We&amp;rsquo;re integrating Sleuth with Prometheus so that if somebody uses the Prometheus Java Client, they can get Exemplars using Sleuth. This issue is also connected to the Micrometer Exemplars Support, &lt;a href="https://github.com/micrometer-metrics/micrometer/issues/2672"&gt;see&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/2039"&gt;Here&lt;/a&gt; you can read more about the issue.&lt;/p&gt;
-&lt;p&gt;There are a couple of notes to take into consideration with regards to this feature:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Micrometer does not support exemplars at the moment, we are planning to do it in our next release (you can use the Prometheus client in the meantime)&lt;/li&gt;
-  &lt;li&gt;This is an experimental feature in Prometheus, you need to explicitly enable it with a &lt;a href="https://prometheus.io/docs/prometheus/latest/feature_flags/#exemplars-storage"&gt;feature flag&lt;/a&gt; (see: &lt;a href="https://github.com/jonatan-ivanov/local-services/commit/f3e37cbdf9943ac9b722605d559bbf1bcff8f637"&gt;example&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Likewise, you need to &lt;a href="https://grafana.com/docs/grafana/latest/datasources/prometheus/#configuring-exemplars"&gt;configure&lt;/a&gt; it in your Grafana datasource and define the url pattern for your tracing backend (see: &lt;a href="https://github.com/jonatan-ivanov/local-services/commit/d2b5a3823cf5b5fb88e2445c98cd2677aa4e5925"&gt;example with Zipkin&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;You also need to make sure that the exemplar flag is enabled on the panel of your dashboard where you want to use exemplars (see: &lt;a href="https://github.com/jonatan-ivanov/local-services/commit/a0bead7ce1f7667df56ee2244cdec0278bbcdf1e#diff-96ea0550ca66bf8428836c6eb864c3d0e3bcf0e07f2a1be13308146837365887R91"&gt;example Dashboard&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;There is no configuration needed on your tracing backend (e.g.: Zipkin), you just need to know the url pattern that the backend uses to reference a traceId (see the url pattern above)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src="https://github.com/marcingrzejszczak/sleuth-3_1_0-blog/blob/main/images/exemplars1.png?raw=true" alt="Exemplars example" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/marcingrzejszczak/sleuth-3_1_0-blog/blob/main/images/exemplars2.png?raw=true" alt="Exemplars example" /&gt;&lt;/p&gt;&lt;h2&gt;&lt;a href="#spring-cloud-stream-reactive" class="anchor" name="spring-cloud-stream-reactive"&gt;&lt;/a&gt;Spring Cloud Stream Reactive&lt;/h2&gt;
-&lt;p&gt;Spring Cloud Sleuth can instrument Spring Cloud Function. Since Spring Cloud Stream uses Spring Cloud Function you will get the messaging instrumentation out of the box.&lt;/p&gt;
-&lt;p&gt;The way to achieve it is to provide a &lt;code&gt;Function&lt;/code&gt; or &lt;code&gt;Consumer&lt;/code&gt; or &lt;code&gt;Supplier&lt;/code&gt; that takes in a &lt;code&gt;Message&lt;/code&gt; as a parameter e.g. &lt;code&gt;Function&amp;lt;Message&amp;lt;String&amp;gt;, Message&amp;lt;Integer&amp;gt;&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;If the type &lt;strong&gt;is not&lt;/strong&gt; &lt;code&gt;Message&lt;/code&gt; then instrumentation &lt;strong&gt;will not&lt;/strong&gt; take place.&lt;/p&gt;
-&lt;p&gt;For a reactive &lt;code&gt;Consumer&amp;lt;Flux&amp;lt;Message&amp;lt;?&amp;gt;&amp;gt;&amp;gt;&lt;/code&gt; remember to manually close the span and clear the context before you call &lt;code&gt;.subscribe()&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/marcingrzejszczak/sleuth-3_1_0-blog/blob/main/images/reactive-stream.jpeg?raw=true" alt="Stream reactive example" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/stream-reactive-producer"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration for the producer.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/stream-reactive-consumer"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration for the consumer.&lt;/p&gt;&lt;h2&gt;&lt;a href="#reactive-mongo" class="anchor" name="reactive-mongo"&gt;&lt;/a&gt;Reactive Mongo&lt;/h2&gt;
-&lt;p&gt;We’re adding command listeners that wrap all commands in a span. It works both for the Reactive and non Reactive case.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/marcingrzejszczak/sleuth-3_1_0-blog/blob/main/images/reactive-mongo.jpeg?raw=true" alt="Reactive Mongo example" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/tree/main/mongodb-reactive"&gt;Here&lt;/a&gt; you can find a sample that depicts this integration.&lt;/p&gt;&lt;h2&gt;&lt;a href="#abstracted-redis-instrumentation" class="anchor" name="abstracted-redis-instrumentation"&gt;&lt;/a&gt;Abstracted Redis instrumentation&lt;/h2&gt;
-&lt;p&gt;With this &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/pull/2046"&gt;PR&lt;/a&gt; the Redis instrumentation can work for other Tracers, such as OpenTelemetry.&lt;/p&gt;&lt;h2&gt;&lt;a href="#custom-actuator-for-storing-traces" class="anchor" name="custom-actuator-for-storing-traces"&gt;&lt;/a&gt;Custom Actuator for storing traces&lt;/h2&gt;
-&lt;p&gt;Spring Cloud Sleuth comes with a traces Actuator endpoint that can store finished spans. The endpoint can be queried either via an HTTP Get method to simply retrieve the list of stored spans or via HTTP Post method to retrieve the list and clear it.&lt;/p&gt;
-&lt;p&gt;Check the &lt;a href="https://docs.spring.io/spring-cloud-sleuth/docs/current/reference/html/project-features.html#features-traces-actuator"&gt;docs&lt;/a&gt; for more details.&lt;/p&gt;&lt;h1&gt;&lt;a href="#stay-in-touch" class="anchor" name="stay-in-touch"&gt;&lt;/a&gt;Stay in touch!&lt;/h1&gt;
-&lt;p&gt;This release introduces a lot of instrumentations. We would love to see your traces! You can go to our &lt;a href="https://gitter.im/spring-cloud/spring-cloud-sleuth"&gt;Gitter&lt;/a&gt; and paste a screenshot of your traces so that we can analyze how we can improve it.&lt;/p&gt;
-&lt;p&gt;In case of any questions don&amp;rsquo;t hesitate to ping us&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;On &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/"&gt;Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;On &lt;a href="https://gitter.im/spring-cloud/spring-cloud-sleuth"&gt;Gitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;On &lt;a href="https://stackoverflow.com/questions/tagged/spring-cloud-sleuth"&gt;Stackoverflow&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h2&gt;&lt;a href="#links" class="anchor" name="links"&gt;&lt;/a&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://docs.wavefront.com/wavefront_springboot.html"&gt;Getting Started with Spring Boot and Tanzu Observability by Wavefront&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://docs.spring.io/spring-cloud-sleuth/docs/3.1.0/reference/html/"&gt;Spring Cloud Sleuth 3.1.0 docs&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/spring-cloud-samples/spring-cloud-sleuth-samples/"&gt;Spring Cloud Sleuth Samples&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/spring-projects-experimental/spring-cloud-sleuth-otel/"&gt;Spring Cloud Sleuth OpenTelemetry project&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring-projects-experimental.github.io/spring-cloud-sleuth-otel/docs/current/reference/html/index.html"&gt;Spring Cloud Sleuth OpenTelemetry docs&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/spring-cloud/spring-cloud-release/wiki/Spring-Cloud-2021.0-Release-Notes#spring-cloud-sleuth"&gt;Spring Cloud Sleuth 3.1.0 release notes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/"&gt;Spring Cloud Sleuth Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://gitter.im/spring-cloud/spring-cloud-sleuth"&gt;Spring Cloud Sleuth Gitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

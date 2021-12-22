@@ -756,3 +756,801 @@ org.apache.http.NoHttpResponseException: feeling.sourceforge.io:443 failed to re
 	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:991)
 	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2021-12-22 01:35:17.553
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2021-12-22 01:35:17.553
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2021-12-22 01:35:17.553
+!MESSAGE The project description file (.project) for 'connectionwithdatabase' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2021-12-22 01:35:17.553
+!MESSAGE The project description file (.project) for 'studentmngt' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-12-22 01:35:21.005
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2021-12-22 05:18:01.761 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.archives.webtools 4 0 2021-12-22 05:19:02.681
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.ide.eclipse.archives.webtools [1022]
+  Unresolved requirement: Require-Bundle: org.jboss.ide.eclipse.as.ui; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.jboss.ide.eclipse.as.ui; bundle-version="3.9.0.v20200204-1121"; singleton:="true"
+       org.jboss.ide.eclipse.as.ui [1036]
+         Unresolved requirement: Require-Bundle: org.jboss.tools.as.runtimes.integration; bundle-version="[3.0.0,4.0.0)"
+           -> Bundle-SymbolicName: org.jboss.tools.as.runtimes.integration; bundle-version="3.9.0.v20200204-1121"; singleton:="true"
+              org.jboss.tools.as.runtimes.integration [1042]
+                Unresolved requirement: Require-Bundle: org.jboss.tools.runtime.ui; bundle-version="3.0.0"
+                  -> Bundle-SymbolicName: org.jboss.tools.runtime.ui; bundle-version="3.5.1.v20200204-1817"; singleton:="true"
+                     org.jboss.tools.runtime.ui [1056]
+                       Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+                         -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                            org.jboss.tools.foundation.ui [1167]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+                  -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.jboss.ide.eclipse.as.wtp.ui; bundle-version="3.0.0"
+                  -> Bundle-SymbolicName: org.jboss.ide.eclipse.as.wtp.ui; bundle-version="3.9.0.v20200204-1121"; singleton:="true"
+                     org.jboss.ide.eclipse.as.wtp.ui [1039]
+                       Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+                         -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.jboss.tools.jmx.ui; bundle-version="1.6.0"
+                         -> Bundle-SymbolicName: org.jboss.tools.jmx.ui; bundle-version="1.10.200.v20210630-1320"; singleton:="true"
+                            org.jboss.tools.jmx.ui [1174]
+                              Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+                                -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.jboss.tools.common.jdt.debug.ui; bundle-version="3.7.0"
+                                -> Bundle-SymbolicName: org.jboss.tools.common.jdt.debug.ui; bundle-version="3.17.0.v20210819-1425"; singleton:="true"
+                                   org.jboss.tools.common.jdt.debug.ui [1164]
+                                     Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.2.0"
+                                       -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.jboss.tools.runtime.ui; bundle-version="2.0.0"
+           -> Bundle-SymbolicName: org.jboss.tools.runtime.ui; bundle-version="3.5.1.v20200204-1817"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:457)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1769)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.jboss.ide.eclipse.as.classpath.ui 4 0 2021-12-22 05:19:02.701
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.ide.eclipse.as.classpath.ui [1024]
+  Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+    -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+       org.jboss.tools.foundation.ui [1167]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+  Unresolved requirement: Require-Bundle: org.jboss.ide.eclipse.archives.webtools; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.jboss.ide.eclipse.archives.webtools; bundle-version="3.9.0.v20200204-1121"; singleton:="true"
+       org.jboss.ide.eclipse.archives.webtools [1022]
+         Unresolved requirement: Require-Bundle: org.jboss.ide.eclipse.as.ui; bundle-version="[3.0.0,4.0.0)"
+           -> Bundle-SymbolicName: org.jboss.ide.eclipse.as.ui; bundle-version="3.9.0.v20200204-1121"; singleton:="true"
+              org.jboss.ide.eclipse.as.ui [1036]
+                Unresolved requirement: Require-Bundle: org.jboss.tools.as.runtimes.integration; bundle-version="[3.0.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.jboss.tools.as.runtimes.integration; bundle-version="3.9.0.v20200204-1121"; singleton:="true"
+                     org.jboss.tools.as.runtimes.integration [1042]
+                       Unresolved requirement: Require-Bundle: org.jboss.tools.runtime.ui; bundle-version="3.0.0"
+                         -> Bundle-SymbolicName: org.jboss.tools.runtime.ui; bundle-version="3.5.1.v20200204-1817"; singleton:="true"
+                            org.jboss.tools.runtime.ui [1056]
+                              Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+                                -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+                         -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.jboss.ide.eclipse.as.wtp.ui; bundle-version="3.0.0"
+                         -> Bundle-SymbolicName: org.jboss.ide.eclipse.as.wtp.ui; bundle-version="3.9.0.v20200204-1121"; singleton:="true"
+                            org.jboss.ide.eclipse.as.wtp.ui [1039]
+                              Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+                                -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.jboss.tools.jmx.ui; bundle-version="1.6.0"
+                                -> Bundle-SymbolicName: org.jboss.tools.jmx.ui; bundle-version="1.10.200.v20210630-1320"; singleton:="true"
+                                   org.jboss.tools.jmx.ui [1174]
+                                     Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+                                       -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                                     Unresolved requirement: Require-Bundle: org.jboss.tools.common.jdt.debug.ui; bundle-version="3.7.0"
+                                       -> Bundle-SymbolicName: org.jboss.tools.common.jdt.debug.ui; bundle-version="3.17.0.v20210819-1425"; singleton:="true"
+                                          org.jboss.tools.common.jdt.debug.ui [1164]
+                                            Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.2.0"
+                                              -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.jboss.tools.runtime.ui; bundle-version="2.0.0"
+                  -> Bundle-SymbolicName: org.jboss.tools.runtime.ui; bundle-version="3.5.1.v20200204-1817"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.jboss.ide.eclipse.as.ui; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.jboss.ide.eclipse.as.ui; bundle-version="3.9.0.v20200204-1121"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:457)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1769)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.jboss.ide.eclipse.as.jmx.integration 4 0 2021-12-22 05:19:02.720
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.ide.eclipse.as.jmx.integration [1028]
+  Unresolved requirement: Require-Bundle: org.jboss.ide.eclipse.as.ui; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.jboss.ide.eclipse.as.ui; bundle-version="3.9.0.v20200204-1121"; singleton:="true"
+       org.jboss.ide.eclipse.as.ui [1036]
+         Unresolved requirement: Require-Bundle: org.jboss.tools.as.runtimes.integration; bundle-version="[3.0.0,4.0.0)"
+           -> Bundle-SymbolicName: org.jboss.tools.as.runtimes.integration; bundle-version="3.9.0.v20200204-1121"; singleton:="true"
+              org.jboss.tools.as.runtimes.integration [1042]
+                Unresolved requirement: Require-Bundle: org.jboss.tools.runtime.ui; bundle-version="3.0.0"
+                  -> Bundle-SymbolicName: org.jboss.tools.runtime.ui; bundle-version="3.5.1.v20200204-1817"; singleton:="true"
+                     org.jboss.tools.runtime.ui [1056]
+                       Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+                         -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                            org.jboss.tools.foundation.ui [1167]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+                  -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.jboss.ide.eclipse.as.wtp.ui; bundle-version="3.0.0"
+                  -> Bundle-SymbolicName: org.jboss.ide.eclipse.as.wtp.ui; bundle-version="3.9.0.v20200204-1121"; singleton:="true"
+                     org.jboss.ide.eclipse.as.wtp.ui [1039]
+                       Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+                         -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.jboss.tools.jmx.ui; bundle-version="1.6.0"
+                         -> Bundle-SymbolicName: org.jboss.tools.jmx.ui; bundle-version="1.10.200.v20210630-1320"; singleton:="true"
+                            org.jboss.tools.jmx.ui [1174]
+                              Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+                                -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.jboss.tools.common.jdt.debug.ui; bundle-version="3.7.0"
+                                -> Bundle-SymbolicName: org.jboss.tools.common.jdt.debug.ui; bundle-version="3.17.0.v20210819-1425"; singleton:="true"
+                                   org.jboss.tools.common.jdt.debug.ui [1164]
+                                     Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.2.0"
+                                       -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.jboss.tools.runtime.ui; bundle-version="2.0.0"
+           -> Bundle-SymbolicName: org.jboss.tools.runtime.ui; bundle-version="3.5.1.v20200204-1817"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.jboss.tools.jmx.ui; bundle-version="[1.4.0,2.0.0)"
+    -> Bundle-SymbolicName: org.jboss.tools.jmx.ui; bundle-version="1.10.200.v20210630-1320"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.jboss.ide.eclipse.as.wtp.ui; bundle-version="3.0.0"
+    -> Bundle-SymbolicName: org.jboss.ide.eclipse.as.wtp.ui; bundle-version="3.9.0.v20200204-1121"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:457)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1769)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.jboss.ide.eclipse.as.rse.ui 4 0 2021-12-22 05:19:02.779
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.ide.eclipse.as.rse.ui [1035]
+  Unresolved requirement: Require-Bundle: org.jboss.ide.eclipse.as.wtp.ui; bundle-version="3.0.0"
+    -> Bundle-SymbolicName: org.jboss.ide.eclipse.as.wtp.ui; bundle-version="3.9.0.v20200204-1121"; singleton:="true"
+       org.jboss.ide.eclipse.as.wtp.ui [1039]
+         Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+           -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+              org.jboss.tools.foundation.ui [1167]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+         Unresolved requirement: Require-Bundle: org.jboss.tools.jmx.ui; bundle-version="1.6.0"
+           -> Bundle-SymbolicName: org.jboss.tools.jmx.ui; bundle-version="1.10.200.v20210630-1320"; singleton:="true"
+              org.jboss.tools.jmx.ui [1174]
+                Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+                  -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.jboss.tools.common.jdt.debug.ui; bundle-version="3.7.0"
+                  -> Bundle-SymbolicName: org.jboss.tools.common.jdt.debug.ui; bundle-version="3.17.0.v20210819-1425"; singleton:="true"
+                     org.jboss.tools.common.jdt.debug.ui [1164]
+                       Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.2.0"
+                         -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.jboss.ide.eclipse.as.ui; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.jboss.ide.eclipse.as.ui; bundle-version="3.9.0.v20200204-1121"; singleton:="true"
+       org.jboss.ide.eclipse.as.ui [1036]
+         Unresolved requirement: Require-Bundle: org.jboss.tools.as.runtimes.integration; bundle-version="[3.0.0,4.0.0)"
+           -> Bundle-SymbolicName: org.jboss.tools.as.runtimes.integration; bundle-version="3.9.0.v20200204-1121"; singleton:="true"
+              org.jboss.tools.as.runtimes.integration [1042]
+                Unresolved requirement: Require-Bundle: org.jboss.tools.runtime.ui; bundle-version="3.0.0"
+                  -> Bundle-SymbolicName: org.jboss.tools.runtime.ui; bundle-version="3.5.1.v20200204-1817"; singleton:="true"
+                     org.jboss.tools.runtime.ui [1056]
+                       Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+                         -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+                  -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.jboss.ide.eclipse.as.wtp.ui; bundle-version="3.0.0"
+                  -> Bundle-SymbolicName: org.jboss.ide.eclipse.as.wtp.ui; bundle-version="3.9.0.v20200204-1121"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.jboss.tools.runtime.ui; bundle-version="2.0.0"
+           -> Bundle-SymbolicName: org.jboss.tools.runtime.ui; bundle-version="3.5.1.v20200204-1817"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:457)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1769)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.jboss.ide.eclipse.as.ui 4 0 2021-12-22 05:19:02.852
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.ide.eclipse.as.ui [1036]
+  Unresolved requirement: Require-Bundle: org.jboss.tools.as.runtimes.integration; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.jboss.tools.as.runtimes.integration; bundle-version="3.9.0.v20200204-1121"; singleton:="true"
+       org.jboss.tools.as.runtimes.integration [1042]
+         Unresolved requirement: Require-Bundle: org.jboss.tools.runtime.ui; bundle-version="3.0.0"
+           -> Bundle-SymbolicName: org.jboss.tools.runtime.ui; bundle-version="3.5.1.v20200204-1817"; singleton:="true"
+              org.jboss.tools.runtime.ui [1056]
+                Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+                  -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                     org.jboss.tools.foundation.ui [1167]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+         Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+           -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.jboss.ide.eclipse.as.wtp.ui; bundle-version="3.0.0"
+           -> Bundle-SymbolicName: org.jboss.ide.eclipse.as.wtp.ui; bundle-version="3.9.0.v20200204-1121"; singleton:="true"
+              org.jboss.ide.eclipse.as.wtp.ui [1039]
+                Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+                  -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.jboss.tools.jmx.ui; bundle-version="1.6.0"
+                  -> Bundle-SymbolicName: org.jboss.tools.jmx.ui; bundle-version="1.10.200.v20210630-1320"; singleton:="true"
+                     org.jboss.tools.jmx.ui [1174]
+                       Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+                         -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.jboss.tools.common.jdt.debug.ui; bundle-version="3.7.0"
+                         -> Bundle-SymbolicName: org.jboss.tools.common.jdt.debug.ui; bundle-version="3.17.0.v20210819-1425"; singleton:="true"
+                            org.jboss.tools.common.jdt.debug.ui [1164]
+                              Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.2.0"
+                                -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.jboss.tools.runtime.ui; bundle-version="2.0.0"
+    -> Bundle-SymbolicName: org.jboss.tools.runtime.ui; bundle-version="3.5.1.v20200204-1817"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:457)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1769)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.jboss.ide.eclipse.as.ui.mbeans 4 0 2021-12-22 05:19:02.890
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.ide.eclipse.as.ui.mbeans [1037]
+  Unresolved requirement: Require-Bundle: org.jboss.ide.eclipse.as.ui; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.jboss.ide.eclipse.as.ui; bundle-version="3.9.0.v20200204-1121"; singleton:="true"
+       org.jboss.ide.eclipse.as.ui [1036]
+         Unresolved requirement: Require-Bundle: org.jboss.tools.as.runtimes.integration; bundle-version="[3.0.0,4.0.0)"
+           -> Bundle-SymbolicName: org.jboss.tools.as.runtimes.integration; bundle-version="3.9.0.v20200204-1121"; singleton:="true"
+              org.jboss.tools.as.runtimes.integration [1042]
+                Unresolved requirement: Require-Bundle: org.jboss.tools.runtime.ui; bundle-version="3.0.0"
+                  -> Bundle-SymbolicName: org.jboss.tools.runtime.ui; bundle-version="3.5.1.v20200204-1817"; singleton:="true"
+                     org.jboss.tools.runtime.ui [1056]
+                       Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+                         -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                            org.jboss.tools.foundation.ui [1167]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+                Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+                  -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.jboss.ide.eclipse.as.wtp.ui; bundle-version="3.0.0"
+                  -> Bundle-SymbolicName: org.jboss.ide.eclipse.as.wtp.ui; bundle-version="3.9.0.v20200204-1121"; singleton:="true"
+                     org.jboss.ide.eclipse.as.wtp.ui [1039]
+                       Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+                         -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.jboss.tools.jmx.ui; bundle-version="1.6.0"
+                         -> Bundle-SymbolicName: org.jboss.tools.jmx.ui; bundle-version="1.10.200.v20210630-1320"; singleton:="true"
+                            org.jboss.tools.jmx.ui [1174]
+                              Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+                                -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.jboss.tools.common.jdt.debug.ui; bundle-version="3.7.0"
+                                -> Bundle-SymbolicName: org.jboss.tools.common.jdt.debug.ui; bundle-version="3.17.0.v20210819-1425"; singleton:="true"
+                                   org.jboss.tools.common.jdt.debug.ui [1164]
+                                     Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.2.0"
+                                       -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.jboss.tools.runtime.ui; bundle-version="2.0.0"
+           -> Bundle-SymbolicName: org.jboss.tools.runtime.ui; bundle-version="3.5.1.v20200204-1817"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:457)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1769)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.ui 4 0 2021-12-22 05:19:02.924
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.ide.eclipse.as.wtp.ui [1039]
+  Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+    -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+       org.jboss.tools.foundation.ui [1167]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+  Unresolved requirement: Require-Bundle: org.jboss.tools.jmx.ui; bundle-version="1.6.0"
+    -> Bundle-SymbolicName: org.jboss.tools.jmx.ui; bundle-version="1.10.200.v20210630-1320"; singleton:="true"
+       org.jboss.tools.jmx.ui [1174]
+         Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+           -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.jboss.tools.common.jdt.debug.ui; bundle-version="3.7.0"
+           -> Bundle-SymbolicName: org.jboss.tools.common.jdt.debug.ui; bundle-version="3.17.0.v20210819-1425"; singleton:="true"
+              org.jboss.tools.common.jdt.debug.ui [1164]
+                Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.2.0"
+                  -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:457)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1769)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.jboss.tools.as.runtimes.integration 4 0 2021-12-22 05:19:02.926
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.tools.as.runtimes.integration [1042]
+  Unresolved requirement: Require-Bundle: org.jboss.tools.runtime.ui; bundle-version="3.0.0"
+    -> Bundle-SymbolicName: org.jboss.tools.runtime.ui; bundle-version="3.5.1.v20200204-1817"; singleton:="true"
+       org.jboss.tools.runtime.ui [1056]
+         Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+           -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+              org.jboss.tools.foundation.ui [1167]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+  Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+    -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.jboss.ide.eclipse.as.wtp.ui; bundle-version="3.0.0"
+    -> Bundle-SymbolicName: org.jboss.ide.eclipse.as.wtp.ui; bundle-version="3.9.0.v20200204-1121"; singleton:="true"
+       org.jboss.ide.eclipse.as.wtp.ui [1039]
+         Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+           -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.jboss.tools.jmx.ui; bundle-version="1.6.0"
+           -> Bundle-SymbolicName: org.jboss.tools.jmx.ui; bundle-version="1.10.200.v20210630-1320"; singleton:="true"
+              org.jboss.tools.jmx.ui [1174]
+                Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+                  -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.jboss.tools.common.jdt.debug.ui; bundle-version="3.7.0"
+                  -> Bundle-SymbolicName: org.jboss.tools.common.jdt.debug.ui; bundle-version="3.17.0.v20210819-1425"; singleton:="true"
+                     org.jboss.tools.common.jdt.debug.ui [1164]
+                       Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.2.0"
+                         -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:457)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1769)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.jboss.tools.runtime.ui 4 0 2021-12-22 05:19:02.931
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.tools.runtime.ui [1056]
+  Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+    -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+       org.jboss.tools.foundation.ui [1167]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:457)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1769)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-12-22 05:19:02.960
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.lsp4e [1128]
+  Unresolved requirement: Require-Bundle: org.eclipse.ui.genericeditor; bundle-version="1.1.900"; resolution:="optional"
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:457)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1769)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.jboss.tools.common.jdt.debug.ui 4 0 2021-12-22 05:19:02.975
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.tools.common.jdt.debug.ui [1164]
+  Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.2.0"
+    -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+       org.jboss.tools.foundation.ui [1167]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:457)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1769)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.jboss.tools.foundation.ui 4 0 2021-12-22 05:19:02.985
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.tools.foundation.ui [1167]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:457)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1769)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.jboss.tools.jmx.jolokia 4 0 2021-12-22 05:19:03.004
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.tools.jmx.jolokia [1169]
+  Unresolved requirement: Require-Bundle: org.jboss.tools.jmx.ui
+    -> Bundle-SymbolicName: org.jboss.tools.jmx.ui; bundle-version="1.10.200.v20210630-1320"; singleton:="true"
+       org.jboss.tools.jmx.ui [1174]
+         Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+           -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+              org.jboss.tools.foundation.ui [1167]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+         Unresolved requirement: Require-Bundle: org.jboss.tools.common.jdt.debug.ui; bundle-version="3.7.0"
+           -> Bundle-SymbolicName: org.jboss.tools.common.jdt.debug.ui; bundle-version="3.17.0.v20210819-1425"; singleton:="true"
+              org.jboss.tools.common.jdt.debug.ui [1164]
+                Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.2.0"
+                  -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+    -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:457)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1769)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.jboss.tools.jmx.local 4 0 2021-12-22 05:19:03.011
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.tools.jmx.local [1173]
+  Unresolved requirement: Require-Bundle: org.jboss.tools.jmx.ui
+    -> Bundle-SymbolicName: org.jboss.tools.jmx.ui; bundle-version="1.10.200.v20210630-1320"; singleton:="true"
+       org.jboss.tools.jmx.ui [1174]
+         Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+           -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+              org.jboss.tools.foundation.ui [1167]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+         Unresolved requirement: Require-Bundle: org.jboss.tools.common.jdt.debug.ui; bundle-version="3.7.0"
+           -> Bundle-SymbolicName: org.jboss.tools.common.jdt.debug.ui; bundle-version="3.17.0.v20210819-1425"; singleton:="true"
+              org.jboss.tools.common.jdt.debug.ui [1164]
+                Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.2.0"
+                  -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+    -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:457)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1769)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.jboss.tools.jmx.ui 4 0 2021-12-22 05:19:03.019
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.tools.jmx.ui [1174]
+  Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.1.0"
+    -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+       org.jboss.tools.foundation.ui [1167]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+  Unresolved requirement: Require-Bundle: org.jboss.tools.common.jdt.debug.ui; bundle-version="3.7.0"
+    -> Bundle-SymbolicName: org.jboss.tools.common.jdt.debug.ui; bundle-version="3.17.0.v20210819-1425"; singleton:="true"
+       org.jboss.tools.common.jdt.debug.ui [1164]
+         Unresolved requirement: Require-Bundle: org.jboss.tools.foundation.ui; bundle-version="1.2.0"
+           -> Bundle-SymbolicName: org.jboss.tools.foundation.ui; bundle-version="1.6.900.v20210922-1648"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:457)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1769)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2021-12-22 05:19:03.028
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.ide.eclipse.boot.dash [1210]
+  Unresolved requirement: Require-Bundle: org.eclipse.lsp4e
+    -> Bundle-SymbolicName: org.eclipse.lsp4e; bundle-version="0.13.6.202108060851"; singleton:="true"
+       org.eclipse.lsp4e [1128]
+         Unresolved requirement: Require-Bundle: org.eclipse.ui.genericeditor; bundle-version="1.1.900"; resolution:="optional"
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:457)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1769)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-12-22 05:19:03.045
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.tooling.ls.eclipse.commons [1251]
+  Unresolved requirement: Require-Bundle: org.eclipse.lsp4e; bundle-version="0.9.0"
+    -> Bundle-SymbolicName: org.eclipse.lsp4e; bundle-version="0.13.6.202108060851"; singleton:="true"
+       org.eclipse.lsp4e [1128]
+         Unresolved requirement: Require-Bundle: org.eclipse.ui.genericeditor; bundle-version="1.1.900"; resolution:="optional"
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:457)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1769)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-12-22 05:19:10.776
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.core 1 0 2021-12-22 05:19:16.736
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-12-22 05:20:07.364
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\KUNJU'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2021-12-22 05:33:18.963
+!MESSAGE Connection to https://feeling.sourceforge.net/update/p2.index failed on Connect to feeling.sourceforge.net:443 [feeling.sourceforge.net/204.68.111.100] failed: Connection refused: connect. Retry attempt 0 started
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connect to feeling.sourceforge.net:443 [feeling.sourceforge.net/204.68.111.100] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1003)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:995)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:991)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 13 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2021-12-22 05:33:30.149
+!MESSAGE Unable to connect to repository https://feeling.sourceforge.net/update/content.xml
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connect to feeling.sourceforge.net:443 [feeling.sourceforge.net/204.68.111.100] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:248)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 11 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2021-12-22 05:34:12.835
+!MESSAGE HTTP Server 'Bad Gateway' : http://dl.bintray.com/testng-team/testng-p2-release/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 502.
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:278)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2021-12-22 05:34:12.864
+!MESSAGE HttpComponents connection error response code 502.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2021-12-22 05:35:16.610
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2021-12-22 05:36:45.591
+!MESSAGE Connection to http://feeling.sourceforge.net/update/p2.index failed on feeling.sourceforge.io:443 failed to respond. Retry attempt 0 started
+!STACK 0
+org.apache.http.NoHttpResponseException: feeling.sourceforge.io:443 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1003)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:995)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:991)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2021-12-22 05:36:59.917
+!MESSAGE Unable to read repository at http://feeling.sourceforge.net/update/content.xml.
+!STACK 0
+org.apache.http.NoHttpResponseException: feeling.sourceforge.io:443 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:248)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2021-12-22 05:37:27.046
+!MESSAGE Connection to https://feeling.sourceforge.net/update/p2.index failed on Connect to feeling.sourceforge.net:443 [feeling.sourceforge.net/204.68.111.100] failed: Connection refused: connect. Retry attempt 0 started
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connect to feeling.sourceforge.net:443 [feeling.sourceforge.net/204.68.111.100] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1003)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:995)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:991)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 13 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2021-12-22 05:37:58.660
+!MESSAGE Connection to http://feeling.sourceforge.net/update/p2.index failed on feeling.sourceforge.io:443 failed to respond. Retry attempt 0 started
+!STACK 0
+org.apache.http.NoHttpResponseException: feeling.sourceforge.io:443 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1003)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:995)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:991)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2021-12-22 05:53:58.200
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+
+!ENTRY org.eclipse.jface 2 0 2021-12-22 06:43:57.759
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-12-22 06:43:57.759
+!MESSAGE A conflict occurred for CTRL+R:
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.RunToLine,Run to Line,
+		Resume and break when execution reaches the current line,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b68d744,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.springframework.ide.eclipse.boot.restart.commands.restart,Trigger Restart,
+		Restart Spring Boot Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@d33365d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
