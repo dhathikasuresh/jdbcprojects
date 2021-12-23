@@ -1,6 +1,7 @@
 package com.dhathika.dao;
 
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -86,34 +87,68 @@ public class StudentDao {
 //	    String studentInsertQuery  = " insert into student1 values(" + std.getrNo() + "," + "'"+ std.getsName() + "'"+ "," + std.getMarks() + ")";
         stmt.execute(deleteQuery);  		
         connectionutil.commitConnection(connection);
-		connectionutil.closeConnection(connection);	
-		
+		connectionutil.closeConnection(connection);		
 	
 	}
-	public List<Student> selectAllStudentRecord() throws ClassNotFoundException, SQLException {
+	public List<Student> selectAllStudentRecords() throws ClassNotFoundException, SQLException {
 		
-		 
-		 connection = connectionutil.getConnection();
+		connection = connectionutil.getConnection();
 		Statement stmt = connection.createStatement();
+		ResultSet rs = stmt.executeQuery("select * from student1");
+		List<Student> stdList = new ArrayList<Student>();
+		while(rs.next()) {
+			Student std = new Student();
+			std.setrNo(rs.getInt(1));
+			std.setsName(rs.getString(2));
+			std.setMarks(rs.getInt(3));
+			stdList.add(std);
+		}
 		
-		List<Student> stdlist = new ArrayList<Student>();
-		String selectQuery = "select * from student1"; 		
-        ResultSet rs = stmt.executeQuery(selectQuery);  
-        while(rs.next())
-        {
-        	Student std = new Student();
-        	std.setrNo(rs.getInt(1));
-        	std.setsName(rs.getString(2));
-        	std.setMarks(rs.getInt(3));
-        	stdlist.add(std);
-        }
-       connectionutil.commitConnection(connection);
-		connectionutil.closeConnection(connection);	
 		
-		return stdlist;
-	
+		return stdList;
+		
+	}
+
+	public int[] executeBatchOfQueries() throws ClassNotFoundException, SQLException {
+		
+		connection = connectionutil.getConnection();
+		Statement stmt = connection.createStatement();
+		  String query1 =  "insert into student1 values(1133,'gowthami',79)";
+		  String query2 = "update student1 set sname='pawan' where sno=1111";	    	
+	     String query3 = "delete from student1 where sno=1022";
+	     stmt.addBatch(query1);
+	     stmt.addBatch(query2);
+	     stmt.addBatch(query3);
+	     
+	     
+	     int[] results =stmt.executeBatch();
+	  
+		return results;
+		
 	}
 	
+	public void createAStudentRecordUsingPStmt(Student std) throws ClassNotFoundException, SQLException {
+		
+		connection = connectionutil.getConnection();
+		PreparedStatement pstmt = connection.prepareStatement("insert into student1 values(?,?,?)");
+		pstmt.setInt(1, std.getrNo());
+		pstmt.setString(2, std.getsName());
+		pstmt.setInt(3, std.getMarks());
+		
+		pstmt.execute();
+		
+		
+	}
+
+	public void updateAStudentRecordUsingPStmt(Student std) throws ClassNotFoundException, SQLException {
+		connection = connectionutil.getConnection();
+		PreparedStatement pstmt = connection.prepareStatement("update student1 set sname=? where sno=? and smarks=?");
+		pstmt.setString(1, std.getsName());
+		pstmt.setInt(2, std.getrNo());
+		pstmt.setInt(3, std.getMarks());
+		pstmt.execute();
+		
+	}
 	
 
 }
