@@ -1,4 +1,4 @@
-package com.dhathika.connectionutil;
+package com.dhathika.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
