@@ -199,5 +199,8 @@ public class ProductDaoImpl implements ProductDao{
 		
 		
 	}
+	public void aMethodToTestGit() {
+		
+	}
 
 }
