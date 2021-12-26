@@ -1,6 +1,6 @@
 package com.dhathika.dto;
 
-public class Product {
+public class Product implements Comparable<Product>{
 	
 	
 	private int pid;
@@ -51,6 +51,19 @@ public class Product {
 	public String toString() {
 		return "Product [pid=" + pid + ", pname=" + pname + ", pprice=" + pprice + ", ptype=" + ptype + ", pweight="
 				+ pweight + ", manifacturer=" + manifacturer + "]";
+	}
+	@Override
+	public int compareTo(Product o) {
+		if(this.pprice<o.pprice) {
+			return 1;
+		}
+		else if(this.pprice>o.pprice){
+			return -1;
+		}
+		else {
+			return 0;
+		}
+	
 	}
 	
 	

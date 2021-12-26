@@ -27,12 +27,9 @@ public class ProductWebpage {
 			System.out.println("2.update Product");
 			System.out.println("3.select Product by product id");
 			System.out.println("4.delete Product");
-			System.out.println("5.select all Products");		
-			System.out.println("6.execute batch of statements");
-			System.out.println("7.insert a record using prepared stmt");
-			System.out.println("8.update a record using prepared stmt");
-			System.out.println("9.select all product by price descending order");
-			System.out.println("9.select all product by price ascending order");
+			System.out.println("5.select all Products");			
+			System.out.println("6.select all product by price descending order");
+			System.out.println("7.select all product by pid ascending order");
 			int choice = sc.nextInt();
 			switch (choice) {
 			case 1:
@@ -75,13 +72,23 @@ public class ProductWebpage {
 				product.setManifacturer(manifacture);
 				productSerive.createProductService(product);
 				break;
-//			case 2:
-//				System.out.println("Enter Product number you wnat to update");
-//				product.setrNo(sc.nextInt());
-//				System.out.println("Enter Product name");
-//				product.setsName(sc.next());
-//				dao.updateProductRecord(product);
-//				break;
+			case 2:
+				System.out.println("Enter Product number you wnat to update");
+				int prdNum = sc.nextInt();
+				Product selectedProduct =productSerive.selectProductByPidService(prdNum);
+				System.out.println(selectedProduct);
+				System.out.println("now update the columns you want");
+				System.out.println("Enter product name update");
+				sc.nextLine();
+				selectedProduct.setPname(sc.next());
+				sc.nextLine();
+				System.out.println("Enter the price you want to update");
+				selectedProduct.setPprice(sc.nextDouble());	
+				System.out.println("Enter the weight you want to update");
+				selectedProduct.setPweight(sc.nextDouble());
+				String str = productSerive.updateProductService(selectedProduct);
+				System.out.println(str);
+				break;
 			case 3:
 				System.out.println("Enter a product id to select a Product");
 				int pid = sc.nextInt();
@@ -89,50 +96,38 @@ public class ProductWebpage {
 				System.out.println("the selcted Product is below");
 				System.out.println(product1);
 				break;
-//			case 4:
-//				System.out.println("enter a sno to delete a Product record");
-//				int sno1 = sc.nextInt();
-//				dao.deleteProductRecord(sno1);
-//				System.out.println(sno1 + "is deleted from the db");
-//				break;
+			case 4:
+				System.out.println("enter a product number  to delete a Product record");
+				int prdNo = sc.nextInt();
+				productSerive.deleteProductService(prdNo);
+				System.out.println(prdNo + "is deleted from the db");
+				break;
 			case 5:
-				System.out.println("You selected option of selecting all the Products");
+				System.out.println("selecting all the Products");
 				List<Product> prdList =productSerive.selectAllAvailableProductService();
 				for(Product prd: prdList) {
 					System.out.println(prd);
 				}
 				break;
-//			case 6:
-//				System.out.println("execute batch staments");
-//				int[] in = dao.executeBatchOfQueries();
-//				for (int i : in) {
-//					System.out.println(i);
-//				}
-//
-//				break;
-//			case 7:
-//				System.out.println("execute preparedstament ");
-//				System.out.println("Enter Product roll Number ");
-//				product.setrNo(sc.nextInt());
-//				System.out.println("Enter Product name");
-//				product.setsName(sc.next());
-//				System.out.println("enter Product marks");
-//				product.setMarks(sc.nextInt());
-//				dao.createAProductRecordUsingPStmt(product);
-//				break;
-//			case 8:
-//				System.out.println("Enter Product number you wnat to update");
-//				product.setrNo(sc.nextInt());
-//				System.out.println("Enter Product name");
-//				product.setsName(sc.next());
-//				System.out.println("Enter marks too");
-//				product.setMarks(sc.nextInt());
-//				dao.updateAProductRecordUsingPStmt(product);
-//				break;
+			case 6:
+				System.out.println("select products in price descending order");
+				List<Product>  prdList1 = productSerive.selectAllProductsByPriceAscendingOrderService();
+				for (Product i :prdList1) {
+					System.out.println(i);
+				}
+
+				break;
+			case 7:
+				System.out.println("select products id ascending order");
+				List<Product>  prdList2 = productSerive.selectAllProductsByPIdAscendingOrderService();
+				for (Product i :prdList2) {
+					System.out.println(i);
+				}
+
+				break;
 			default:
 				System.out.println("your choice is not present");
 				System.exit(0);
-
 			}
 		} while (1 != 0);
 

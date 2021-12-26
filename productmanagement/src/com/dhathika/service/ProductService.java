@@ -10,6 +10,6 @@ public interface ProductService {
 	public Product selectProductByPidService(int pid);
 	public List<Product>  selectAllAvailableProductService();
 	public List<Product> selectAllProductsByPriceAscendingOrderService();
-	public List<Product> selectAllProductsByPriceDescendingOrderService();
-	public void deleteProductService();
+	public List<Product> selectAllProductsByPIdAscendingOrderService();
+	public void deleteProductService(int prdNo);
 }

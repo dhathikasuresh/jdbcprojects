@@ -12,8 +12,8 @@ public interface ProductDao {
 	public Product selectProductByPidDao(int pid);
 	public List<Product>  selectAllAvailableProductDao();
 	public List<Product> selectAllProductsByPriceAscendingOrderDao();
-	public List<Product> selectAllProductsByPriceDescendingOrderDao();
-	public void deleteProductDao();
+	public List<Product> selectAllProductsByPIdAscendingOrderDao();
+	public void deleteProductDao(int prdNo);
 	
 
 }

@@ -6,8 +6,10 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
+import com.dhathika.comparators.ProductIdComparator;
 import com.dhathika.dto.Address;
 import com.dhathika.dto.Manifacturer;
 import com.dhathika.dto.Product;
@@ -49,9 +51,34 @@ public class ProductDaoImpl implements ProductDao{
 	}
 
 	@Override
-	public String updateProductDao(Product product) {
-		// TODO Auto-generated method stub
-		return null;
+	public String updateProductDao(Product updatedProduct) {
+	int pId = updatedProduct.getPid();	
+	Product productFromDB = selectProductByPidDao(pId);
+	String query = "update Product set ";	
+	if(!(updatedProduct.getPname().equals(productFromDB))) {
+		query = query+ "pname =" + "'" + updatedProduct.getPname() + "'";
+	}
+	if(!(updatedProduct.getPprice()==productFromDB.getPprice())) {
+		query = query+ ", pprice =" + updatedProduct.getPprice();
+	}
+	if(!(updatedProduct.getPweight()==productFromDB.getPweight()))
+	   query = query + ", pweight =" + updatedProduct.getPweight();
+	query = query + " where pid = ?";
+	System.out.println(query  );
+	
+	
+	try {
+		connection = connectionutil.getConnection();
+		PreparedStatement pstmt = connection.prepareStatement(query);
+		pstmt.setInt(1, updatedProduct.getPid());
+		pstmt.execute();
+	} catch (ClassNotFoundException | SQLException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	
+	
+		return "Product updated successfully";
 	}
 
 	@Override
@@ -142,19 +169,34 @@ public class ProductDaoImpl implements ProductDao{
 
 	@Override
 	public List<Product> selectAllProductsByPriceAscendingOrderDao() {
-		// TODO Auto-generated method stub
-		return null;
+	List<Product> prdList = selectAllAvailableProductDao();
+	Collections.sort(prdList);
+		return prdList;
 	}
 
 	@Override
-	public List<Product> selectAllProductsByPriceDescendingOrderDao() {
-		// TODO Auto-generated method stub
-		return null;
+	public List<Product> selectAllProductsByPIdAscendingOrderDao() {
+		List<Product> prdList = selectAllAvailableProductDao();
+		Collections.sort(prdList,new ProductIdComparator());
+		return prdList;
 	}
 
 	@Override
-	public void deleteProductDao() {
-		// TODO Auto-generated method stub
+	public void deleteProductDao(int prdId) {
+		try {
+			
+			
+			
+			connection = connectionutil.getConnection();
+			PreparedStatement pstmt = connection.prepareStatement("delete from PRODUCT where PID=?");
+			pstmt.setInt(1, prdId);
+			pstmt.execute();
+			
+			} catch (ClassNotFoundException | SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 		
 	}
 
