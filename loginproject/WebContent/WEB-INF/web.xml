@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>loginproject</display-name>
+  <welcome-file-list>
+    <welcome-file>login.html</welcome-file>
+    </welcome-file-list>
+  <servlet>
+  <servlet-name>loginservlet</servlet-name>
+  <servlet-class>com.dhathika.controller.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>loginservlet</servlet-name>
+  <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+   <servlet>
+  <servlet-name>welcomeservlet</servlet-name>
+  <servlet-class>com.dhathika.controller.WelcomeController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>welcomeservlet</servlet-name>
+  <url-pattern>/welcome</url-pattern>
+  </servlet-mapping>
+   <servlet>
+  <servlet-name>failureservlet</servlet-name>
+  <servlet-class>com.dhathika.controller.FailureController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>failureservlet</servlet-name>
+  <url-pattern>/failure</url-pattern>
+  </servlet-mapping>
+   <servlet>
+  <servlet-name>forgetpasswordservlet</servlet-name>
+  <servlet-class>com.dhathika.controller.ForgetController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>forgetpasswordservlet</servlet-name>
+  <url-pattern>/forgetpassword</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>cityname</servlet-name>
+  <servlet-class>com.dhathika.controller.Trivandrum</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>cityname</servlet-name>
+  <url-pattern>/actiontrivandrum</url-pattern>
+  </servlet-mapping>
+</web-app>
