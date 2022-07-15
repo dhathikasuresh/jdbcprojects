@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+	<display-name>servletcontextconfig</display-name>
+	<servlet>
+		<servlet-name>recruiter</servlet-name>
+		<servlet-class>com.dhathika.controllers.Recruiter</servlet-class>
+		<init-param>
+			<param-name>Email</param-name>
+			<param-value>forRecruiter@xyz.com</param-value>
+		</init-param>
+		<init-param>
+			<param-name>pi</param-name>
+			<param-value>3.1433</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>recruiter</servlet-name>
+		<url-pattern>/recruit</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>applicant</servlet-name>
+		<servlet-class>com.dhathika.controllers.Applicant</servlet-class>
+		<init-param>
+			<param-name>Email</param-name>
+			<param-value>forApplicant@xyz.com</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>applicant</servlet-name>
+		<url-pattern>/apply</url-pattern>
+	</servlet-mapping>
+
+	<context-param>
+		<param-name>Website-name</param-name>
+		<param-value>Dhathika.org</param-value>
+	</context-param>
+	
+</web-app>

@@ -1,0 +1,4 @@
+com\transaction\entities\Job.class
+com\transaction\helper\SessionFactoryHelper.class
+com\transaction\entities\Company.class
+com\transaction\entities\TestTransaction.class

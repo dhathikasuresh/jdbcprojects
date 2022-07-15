@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="com.elite.dto.Student" table="STUDENT">
+
+		<id name="sno" column="SNO">
+			<generator class="increment"></generator>
+		</id>
+		<property name="name" column="NAME"></property>
+		<property name="course" column="COURSE"></property>
+		<property name="fee" column="FEE"></property>
+
+	<component name="address" class="com.elite.dto.Address">
+			<property name="houseNumber" column="HOUSE_NUMBER"></property>
+			<property name="street" column="STREET"></property>
+			<property name="city" column="CITY"></property>
+	</component>
+
+	</class>
+</hibernate-mapping>
+

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Management System</title>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	
+</script>
+<link rel="stylesheet" type="text/css" href="css/menu.css">
+<link rel="stylesheet" type="text/css" href="css/tablestyle.css">
+<script type="text/javascript" src="js/getAll.js"></script>
+<script type="text/javascript" src="js/update.js"></script>
+<script type="text/javascript" src="js/delete.js"></script>
+</head>
+<body>
+	<div class="header">
+			<h2>Employee CURD Application</h2>
+		</div>
+	<div class="totalcount">
+		<input type="button" id="GetCount" value="Total Employees"><br>
+	</div>
+	<nav class="menu">
+		<ul>
+			<li><a href="#" id="home">Home</a></li> 
+			<li><a href="#" id="aboutus">AboutUs</a></li> 
+			<li><a href="#" id="insert">Registration</a></li> 
+			<li><a href="#" id="findall">AllEmployees</a></li> 
+		</ul>
+		<form class="search-form">
+			<input type="number" id="eno" placeholder="Search By Id...">
+			<button id="getid">Search</button>
+		</form>
+	</nav>
+
+	<div id="print" >	</div>
+	<br>
+	
+	<table id="empDataTable">
+		<tr>
+			<th>SNO</th>
+			<th>EID</th>
+			<th>ENAME</th>
+			<th>ESALARY</th>
+			<th>DOB</th>
+			<th>City</th>
+			<th>Edit</th>
+			<th>Delete</th>
+		</tr>
+	</table>
+
+	<div>
+		<form>
+			<table id="formTab">
+				<tr>
+					<td>Enter Name</td>
+					<td><input type="text" id="ename" placeholder="Enter Your Name"></td>
+				</tr>
+				<tr>
+					<td>Enter salary</td>
+					<td><input type="text" id="esal" placeholder="Enter Your salary"></td>
+				</tr>
+
+				<tr>
+					<td>Enter DateOfBirth</td>
+					<td><input type="text" id="edob" placeholder="yyyy-MM-dd"></td>
+				</tr>
+				<tr>
+					<td>city</td>
+					<td><input type="text" id="ecity" placeholder="Enter Your city"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" id="submit"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<div>
+		<form>
+			<table id="update">
+			<tr>
+					<td>Enter Eid</td>
+					<td><input type="text" name="eno" id="ueno" readonly="readonly"></td>
+				</tr>
+			
+				<tr>
+					<td>Enter Name</td>
+					<td><input type="text" placeholder="Enter Name" id="uename"></td>
+				</tr>
+				<tr>
+					<td>Enter salary</td>
+					<td><input type="text" placeholder="Enter Salary" id="uesal"></td>
+				</tr>
+				
+				<tr>
+					<td> Date Of Birth</td>
+					<td><input type="text" placeholder="yyyy-MM-dd" id="uedob"></td>
+				</tr>
+				<tr>
+					<td>CITY</td>
+					<td><input type="text" placeholder="Enter your City" id="uecity"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" id="updateTab"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>

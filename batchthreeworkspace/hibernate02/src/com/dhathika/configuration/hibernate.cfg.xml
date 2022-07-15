@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+	<session-factory>
+	<!-- datasource  -->
+		<property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection.url">jdbc:oracle:thin:@LAPTOP-20K4742B:1521:XE</property>
+		<property name="connection.username">SYSTEM</property>
+		<property name="connection.password">dhathika</property>
+
+       <!--   hibernate proeprties  -->
+		<property name="dialect">org.hibernate.dialect.Oracle9Dialect</property>
+		<property name="connection.pool_size">15</property>
+		<property name="show_sql">true</property>
+		<property name="hbm2ddl.auto">update</property>
+		<property name="use_sql_comments">true</property>
+		<property name="format_sql">true</property>
+		<!-- <mapping
+			resource="com/hibernate/mapping/Product.hbm.xml" /> -->
+			      <mapping class="com.dhathika.dto.Product" /> 
+	</session-factory>
+</hibernate-configuration>

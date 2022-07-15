@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+
+<hibernate-mapping schema="SYSTEM" >
+	<class name="com.dhathika.dto.Product" table="PRODUCT">
+	
+		<id name="pId" type="int" column="Product_Id" >	
+		</id>
+		
+		<property name="pName" column="product_name" type="string" />
+		<property name="pPrice" column="product_price" type="double" />
+		<property name="pBrand" column="product_Brand" type="string" />
+		
+		<property name="pManifacturerName"
+			column="product_Manifacturer" type="string" />
+			
+		<property name="pManifuringDate" type="date">
+			<column name="Product_Manifacturing_Date" not-null="true"></column>
+		</property>
+		
+		<property name="pExpiryDate" type="date">
+			<column name="Product_Expiry_Date" not-null="true"></column>
+		</property>
+	</class>
+</hibernate-mapping>
+

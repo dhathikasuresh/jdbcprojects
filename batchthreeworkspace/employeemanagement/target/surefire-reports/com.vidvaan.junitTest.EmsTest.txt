@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.vidvaan.junitTest.EmsTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 2.61 sec <<< FAILURE! - in com.vidvaan.junitTest.EmsTest
+findBYID(com.vidvaan.junitTest.EmsTest)  Time elapsed: 0.032 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.vidvaan.junitTest.EmsTest.findBYID(EmsTest.java:68)
+
+FindAll(com.vidvaan.junitTest.EmsTest)  Time elapsed: 0.072 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<2> but was:<4>
+	at com.vidvaan.junitTest.EmsTest.FindAll(EmsTest.java:89)
+

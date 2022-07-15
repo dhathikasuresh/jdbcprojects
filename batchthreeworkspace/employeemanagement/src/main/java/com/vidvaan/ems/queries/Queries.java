@@ -1,0 +1,9 @@
+package com.vidvaan.ems.queries;
+
+public interface Queries {
+	String EMS_INSERT = "INSERT INTO EMPLOYEE(ENAME,ESAL,EDOB,ECITY) VALUES(?,?,?,?)";
+	String EMS_UPDATE = "UPDATE  EMPLOYEE SET ENAME= ?,ESAL =?,EDOB =?,ECITY =? WHERE ENO =?";
+	String EMS_DELETE = "DELETE FROM  EMPLOYEE WHERE ENO =? ";
+	String EMS_FIND_BY_ID = "SELECT * FROM  EMPLOYEE WHERE ENO =?";
+	String EMS_FINDALL = "SELECT * FROM  EMPLOYEE";
+}
