@@ -50,8 +50,9 @@ public class ProductDaoImpl implements ProductDao{
 	   SessionFactory  sessionFactory = configuration.buildSessionFactory();
 	   Session session = sessionFactory.openSession();
 	   Transaction transaction = session.beginTransaction();	
+	   
 	   session.update(product);
-				session.getTransaction().commit();
+				transaction.commit();
 	                        session.close();
 
 	}
@@ -70,6 +71,8 @@ public class ProductDaoImpl implements ProductDao{
 	@Override
 	public void loadExample(int i) {
 		   Session session = SessionUtil.getSession();
+		   session.load(Product.class, i);// lazy loading  proxy
+		   session.get(Product.class, i); // eager loading hit db to get data
 		   Criteria criteria = session.createCriteria(Product.class);		
 		   Criterion criterion1 = Restrictions.idEq(new Integer(2001));
 		   Criterion criterion2 =  Restrictions.eq("pName"	, "Orio");

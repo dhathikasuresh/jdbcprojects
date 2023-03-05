@@ -55,6 +55,8 @@ public class LoginController extends HttpServlet{
 //		 resp.sendRedirect("welcome");
 		   RequestDispatcher rd = req.getRequestDispatcher("welcome");
 		   rd.forward(req, resp);
+		   
+		   
 	   }
 	   else {
 //		   resp.sendRedirect("failure");

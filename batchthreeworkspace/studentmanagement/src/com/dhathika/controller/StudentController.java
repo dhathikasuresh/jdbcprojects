@@ -7,10 +7,23 @@ import com.dhathika.dto.Student;
 import com.dhathika.service.StudentService;
 
 public class StudentController {
-	static StudentService service = new StudentService();
+	StudentService service;
+	StudentController controller;
+
+	
+
+	public StudentController(StudentService service, StudentController controller) {
+	
+		this.service = service;
+		this.controller = controller;
+	}
+	public StudentController() {
+		
+
+	}
 
 	public static void main(String[] args) {
-
+ StudentController stdController = new StudentController();
 		System.out.println("welcome to student crud operations ");
 		do {
 			System.out.println("1. create student record ");
@@ -24,23 +37,23 @@ public class StudentController {
 			int choice = sc.nextInt();
 			switch (choice) {
 			case 1:
-				createStudentRecord();
+				stdController.createStudentRecord();
 				break;
 			case 2:
-				readAllStudentRecord();
+				stdController.readAllStudentRecord();
 				break;
 			case 3:
-				updateStudentRecord();
+				stdController.updateStudentRecord();
 				break;
 			case 4:
-				deleteStudentRecord();
+				stdController.deleteStudentRecord();
 				break;
-			case 5:
-				System.out.println("Enter a student number");
-				int sno = sc.nextInt();
-				Student student = service.selectStudentByNumber(sno);
-				System.out.println(student);
-				break;
+//			case 5:
+//				System.out.println("Enter a student number");
+//				int sno = sc.nextInt();
+//				Student student = stdcon.selectStudentByNumber(sno);
+//				System.out.println(student);
+//				break;
 
 			default:
 				System.exit(0);
@@ -50,7 +63,7 @@ public class StudentController {
 
 	}
 
-	public static void createStudentRecord() {
+	public  void createStudentRecord() {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter student info");
 		System.out.println("Enter student number");
@@ -64,14 +77,14 @@ public class StudentController {
 
 	}
 
-	public static void readAllStudentRecord() {
+	public  void readAllStudentRecord() {
 		List<Student> stdList = service.readStudentRecord();
 		for (Student std : stdList) {
 			System.out.println(std);
 		}
 	}
 
-	public static void updateStudentRecord() {
+	public  void updateStudentRecord() {
 		readAllStudentRecord();
 		System.out.println("Select a student record to update");
 		Scanner sc = new Scanner(System.in);
@@ -86,7 +99,7 @@ public class StudentController {
 		System.out.println(result);
 	}
 
-	public static void deleteStudentRecord() {
+	public  void deleteStudentRecord() {
 		readAllStudentRecord();
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a student number to delete from student table");

@@ -8,10 +8,13 @@ import com.vidvaan.ems.model.Employee;
 
 public class EmployeeServiceImpl implements EmployeeService {
 
+
+	private EmployeeDAO employeeDAO = new EmployeeDAOImpl();
+	
+	
 	public EmployeeServiceImpl() {
 	}
 
-	private EmployeeDAO employeeDAO = new EmployeeDAOImpl();
 
 
 	public void insert(Employee employee) {

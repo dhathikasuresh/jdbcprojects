@@ -1,13 +1,18 @@
 package com.dhathika.service;
 
-import java.sql.SQLException;
 import java.util.List;
 
 import com.dhathika.dto.Student;
 import com.dhathika.repository.StudentRepository;
 
 public class StudentService {
-       StudentRepository repository = new StudentRepository();
+       StudentRepository repository ;
+       
+	public StudentService(StudentRepository repository) {
+	
+		this.repository = repository;
+	}
+
 	public String createStudentRecord(Student student) {
      return repository.createStudentRecord(student);
 	}

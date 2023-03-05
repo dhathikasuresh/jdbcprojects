@@ -1,6 +1,8 @@
 package com.dhathika.clone;
 
-public class Subject implements Cloneable {
+import java.io.Serializable;
+
+public class Subject implements Cloneable,Serializable {
         String sub1;
         String sub2;
         String sub3;

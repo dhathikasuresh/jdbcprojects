@@ -1,5 +1,6 @@
 package com.dhathika.service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import com.dhathika.dao.ProductDao;
@@ -36,12 +37,13 @@ public class ProductSeriveImpl implements ProductService {
 	public List<Product> selectAllAvailableProductService() {
 		productDao = new ProductDaoImpl();
 		List<Product> prdList = productDao.selectAllAvailableProductDao();
+		List<Product> newList = new ArrayList<Product>();
 		for (Product prd : prdList) {
 			Product gstModifiedProduct = offerCalculator(prd);
-			prdList.add(gstModifiedProduct);
+			newList.add(gstModifiedProduct);
 		}
 
-		return prdList;
+		return newList;
 	}
 
 	@Override

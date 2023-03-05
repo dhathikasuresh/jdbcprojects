@@ -1,6 +1,8 @@
 package com.dhathika.clone;
 
-public class Student implements Cloneable{
+import java.io.Serializable;
+
+public class Student implements Cloneable,Serializable{
 	
 	int sno;
 	String sname;

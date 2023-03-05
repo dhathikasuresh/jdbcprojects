@@ -1,5 +1,7 @@
 package com.dhathika.sessionutil;
 
+import java.util.Scanner;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

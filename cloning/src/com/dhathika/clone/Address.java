@@ -1,6 +1,8 @@
 package com.dhathika.clone;
 
-public class Address implements Cloneable{
+import java.io.Serializable;
+
+public class Address implements Cloneable,Serializable{
 	
 	 int hno;
 	 String street;

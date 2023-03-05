@@ -6,12 +6,12 @@ import java.util.Scanner;
 import com.dhathika.dto.Product;
 import com.dhathika.service.ProductService;
 import com.dhathika.service.ProductServiceImpl;
-
+// this is the point for statring the project, just like a controller.
 public class ProductController {
-	ProductService service = new ProductServiceImpl();
+	private ProductService service = new ProductServiceImpl();
 
 	public static void main(String[] args) {
-		ProductController  obj = new ProductController();
+		final ProductController  obj = new ProductController();
 //	obj.insertProduct();
 //       obj.selectAccount();
 //		obj.updateAccount();

@@ -1,8 +1,13 @@
 package com.dhathika.clone;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+
 public class Main {
 	
-	public static void main(String[] args) throws CloneNotSupportedException {
+	public static void main(String[] args) throws CloneNotSupportedException, IOException, ClassNotFoundException {
 		Address add = new Address();
 		add.hno=13;
 		add.street="BoseStreet";
@@ -20,26 +25,18 @@ public class Main {
 		std1.address=add;
 		std1.subjects=subject;
 		
-		
-		System.out.println(std1);
-		Student std2 = (Student) std1.clone();
-		System.out.println(std2);
-		
-		System.out.println("*****************************************");
-		
-		std1.sname="Ramesh";
-		std2.subjects.sub1="stats";
-		System.out.println(std1);
-		System.out.println(std2);
-		
-		
-		System.out.println("*****************************************");
-		std1.address.country="Srilanka";
-		System.out.println(std1);
-		System.out.println(std2);
-		
 	
-	
+		
+	    File file = new File("C:\\logs\\myfile.txt");
+//	   FileOutputStream fos = new FileOutputStream(file);
+//	  ObjectOutputStream oos = new ObjectOutputStream(fos);
+//	  oos.writeObject(std1);
+//	  oos.close();
+	    
+	  FileInputStream fis = new FileInputStream(file);
+	  ObjectInputStream ois = new ObjectInputStream(fis);
+	  Student std2 = (Student) ois.readObject();
+	  System.out.println(std2);
 			
 				
 				

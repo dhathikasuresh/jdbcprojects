@@ -22,8 +22,8 @@ public class DBConnection {
 //        Statement statement = connection.createStatement();
 //         String str = "insert into depptt values(1050)";
 //         statement.execute(str);
-      
-     
+
+
          connection.commit();
      
   

@@ -7,7 +7,11 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Scanner;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 public class Main {
+static ApplicationContext context = new ClassPathXmlApplicationContext("com/dhathika/spring/config/spring.xml");
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 
@@ -64,7 +68,7 @@ public class Main {
 		stmt.execute(query);
 	}
 
-	public static void readAllStudentRecord() throws ClassNotFoundException, SQLException {
+	public  void readAllStudentRecord() throws ClassNotFoundException, SQLException {
 		String selectQuery = "select * from student";
 		Connection connection = getConnection();
 		Statement stmt = connection.createStatement();

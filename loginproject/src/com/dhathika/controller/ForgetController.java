@@ -39,6 +39,8 @@ public class ForgetController extends HttpServlet{
 		}
 		
 		resp.setContentType("text/hmtl");
+		
+		
 	
 	}
 
